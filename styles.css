@@ -1,0 +1,68 @@
+
+@font-face {
+    font-family: "StarJedi";
+     src: local("StarJedi"),
+       url("./fonts/StarJedi.ttf") format("truetype");}
+
+body{
+    background: url('./img/dagobah.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    display:flex;
+    justify-content:center;
+    gap: 40px;
+    align-items: center;
+
+}
+.title{
+    font-family: 'starJedi';
+    font-size: 100px;
+    color: #f6a411;
+    text-shadow:  2px 2px 2px black,3px 3px 3px #de9713;
+
+}
+.container{
+    margin-top: -20px;
+    display:flex;
+    justify-content:center;
+    gap: 20px;
+    align-items: center;
+}
+.quote{
+    font-family: 'verdana';
+    font-size: 30px;
+    width: 800px;
+    color:#ffcb3b;
+    text-align: center;
+    text-shadow:  2px 2px 2px black,3px 3px 3px #de9713;
+    background:url('/img/space.jpeg');
+    border-color: white;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 5%;
+    box-shadow: 4px 4px 4px gray;
+    overflow:hidden;
+}
+.logo{
+    width:300px;
+    padding: 30px;
+}
+button{
+    margin-top: 10px;
+    background-color:#f6a411;
+    color:white;
+    width: 100px;
+    height: 50px;
+    border:none;
+    margin-left: 620px;
+    font-size: larger;
+    border-radius: 5px;
+    text-shadow:  2px 2px 2px gray,3px 3px 3px white, 4px 4px 4px black;
+    box-shadow: 4px 4px 4px gray;
+    border-radius: 5%;
+
+}
